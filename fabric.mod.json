@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "chestloot",
+  "version": "${version}",
+  "name": "Chest Loot Mod",
+  "description": "Mod para la prueba del cofre",
+  "authors": [
+    "Tu Nombre"
+  ],
+  "contact": {
+    "sources": "https://github.com/tu-repositorio/chestloot"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.chestloot.ChestLootMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "1.19.4"
+  }
+}
